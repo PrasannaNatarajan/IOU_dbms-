@@ -1,0 +1,93 @@
+    public static void parseJSON(String inp)
+    {
+        int len = inp.length();
+        int cursor = -1;
+        int i;
+        int countEntries = 0,lastBracket = 0;
+        int startIndex,endIndex,cursorPosition = 0;
+        String from_id, to_id, amount, time_stamp, down_sync, plain_sync;
+        String closeBracket = "}",doubleQuote = "\"";
+           
+        while(lastBracket<len)
+        {
+            lastBracket = inp.indexOf(closeBracket,lastBracket+1);
+            countEntries++;
+            if(lastBracket == len-1)
+                break;
+        }
+        
+        for(i=0;i<countEntries;i++)
+        {
+            
+            //{"From_ID":"vc909@snu.edu.in",
+            startIndex = inp.indexOf(doubleQuote,cursorPosition+1);
+            cursorPosition = startIndex;
+            startIndex = inp.indexOf(doubleQuote,cursorPosition+1);
+            cursorPosition = startIndex;
+            startIndex = inp.indexOf(doubleQuote,cursorPosition+1);
+            cursorPosition = startIndex;
+            endIndex = inp.indexOf(doubleQuote,cursorPosition+1);
+            cursorPosition = endIndex;
+            from_id=inp.substring(startIndex+1,endIndex);
+            //System.out.println(from_id);
+            //"To_ID":"pn337@snu.edu.in",
+            startIndex = inp.indexOf(doubleQuote,cursorPosition+1);
+            cursorPosition = startIndex;
+            startIndex = inp.indexOf(doubleQuote,cursorPosition+1);
+            cursorPosition = startIndex;
+            startIndex = inp.indexOf(doubleQuote,cursorPosition+1);
+            cursorPosition = startIndex;
+            endIndex = inp.indexOf(doubleQuote,cursorPosition+1);
+            cursorPosition = endIndex;
+            to_id=inp.substring(startIndex+1,endIndex);
+            //System.out.println(to_id);
+            //"Amount":"664.00",
+            startIndex = inp.indexOf(doubleQuote,cursorPosition+1);
+            cursorPosition = startIndex;
+            startIndex = inp.indexOf(doubleQuote,cursorPosition+1);
+            cursorPosition = startIndex;
+            startIndex = inp.indexOf(doubleQuote,cursorPosition+1);
+            cursorPosition = startIndex;
+            endIndex = inp.indexOf(doubleQuote,cursorPosition+1);
+            cursorPosition = endIndex;
+            amount=inp.substring(startIndex+1,endIndex);
+            //System.out.println(amount);
+            //"Timestamp":"2016-04-16 19:54:19",
+            startIndex = inp.indexOf(doubleQuote,cursorPosition+1);
+            cursorPosition = startIndex;
+            startIndex = inp.indexOf(doubleQuote,cursorPosition+1);
+            cursorPosition = startIndex;
+            startIndex = inp.indexOf(doubleQuote,cursorPosition+1);
+            cursorPosition = startIndex;
+            endIndex = inp.indexOf(doubleQuote,cursorPosition+1);
+            cursorPosition = endIndex;
+            time_stamp=inp.substring(startIndex+1,endIndex);
+            //System.out.println(time_stamp);
+            //"Sync":"1"
+            startIndex = inp.indexOf(doubleQuote,cursorPosition+1);
+            cursorPosition = startIndex;
+            startIndex = inp.indexOf(doubleQuote,cursorPosition+1);
+            cursorPosition = startIndex;
+            startIndex = inp.indexOf(doubleQuote,cursorPosition+1);
+            cursorPosition = startIndex;
+            endIndex = inp.indexOf(doubleQuote,cursorPosition+1);
+            cursorPosition = endIndex;
+            plain_sync=inp.substring(startIndex+1,endIndex);
+            //System.out.println(plain_sync);
+            //"down_sync":"0"}
+            startIndex = inp.indexOf(doubleQuote,cursorPosition+1);
+            cursorPosition = startIndex;
+            startIndex = inp.indexOf(doubleQuote,cursorPosition+1);
+            cursorPosition = startIndex;
+            startIndex = inp.indexOf(doubleQuote,cursorPosition+1);
+            cursorPosition = startIndex;
+            endIndex = inp.indexOf(doubleQuote,cursorPosition+1);
+            cursorPosition = endIndex;
+            down_sync=inp.substring(startIndex+1,endIndex);
+            //System.out.println(down_sync);
+            
+            //public String substring(int beginIndex, int endIndex)
+            //beginIndex -- the begin index, inclusive.
+            //endIndex -- the end index, exclusive.    
+        }
+    }

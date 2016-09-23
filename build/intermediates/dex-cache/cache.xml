@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\prasanna\Desktop\IOYou\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="C:\Users\prasanna\Desktop\IOYou\app\build\intermediates\pre-dexed\debug\classes-2828c646dbea7186efd8daf55a9f42c1c36b3919.jar" />
+    </item>
+    <item
+        jar="C:\Users\prasanna\Desktop\IOYou\app\libs\google-gson-2.2.4-release\gson-2.2.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8">
+        <dex dex="C:\Users\prasanna\Desktop\IOYou\app\build\intermediates\pre-dexed\debug\gson-2.2.4-98d96f6c4a60f4dbf0a8b220a29bf1084ad4d528.jar" />
+    </item>
+    <item
+        jar="C:\Users\prasanna\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="C:\Users\prasanna\Desktop\IOYou\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-b52c2aa2810bbf1d1a23e57be3cfa179e5b2848f.jar" />
+    </item>
+    <item
+        jar="C:\Users\prasanna\Desktop\IOYou\app\build\intermediates\exploded-aar\com.android.support\design\22.2.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="fc63b820d54c8a27a3a614bdd93920e0076581c2">
+        <dex dex="C:\Users\prasanna\Desktop\IOYou\app\build\intermediates\pre-dexed\debug\classes-6fac5d9860fd818db00a9dbef0de525a8268e82b.jar" />
+    </item>
+    <item
+        jar="C:\Users\prasanna\Desktop\IOYou\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="C:\Users\prasanna\Desktop\IOYou\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-1beaea35cc8008617a971fec3545d804a1a82555.jar" />
+    </item>
+    <item
+        jar="C:\Users\prasanna\Desktop\IOYou\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="C:\Users\prasanna\Desktop\IOYou\app\build\intermediates\pre-dexed\debug\classes-e765f632d646b23351ab56d24ed1263a17720cfe.jar" />
+    </item>
+    <item
+        jar="C:\Users\prasanna\Desktop\IOYou\app\build\intermediates\exploded-aar\com.mcxiaoke.volley\library-aar\1.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e40b9a81989bd4a846018551c280f8c4d837bf2e">
+        <dex dex="C:\Users\prasanna\Desktop\IOYou\app\build\intermediates\pre-dexed\debug\classes-86adfb2cee82df5ebececf8cd8d841671693c6bf.jar" />
+    </item>
+    <item
+        jar="C:\Users\prasanna\Desktop\IOYou\app\libs\android-async-http-1.4.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3bae85a076241828810bf8fbcc12e5891d5fc34c">
+        <dex dex="C:\Users\prasanna\Desktop\IOYou\app\build\intermediates\pre-dexed\debug\android-async-http-1.4.4-0b7f1ba8117638f19604923d4c10031ddb5c2e28.jar" />
+    </item>
+
+</items>
